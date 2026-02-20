@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lab 2 </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <h1> Manipulación del DOM</h1>
+        <p class="descripcion">Haz clic en los botones y mira cómo los elementos se transforman con colores suaves</p>
 
+        <div class="botones-grid">
+            <button id="btnCambiarTexto"> Cambiar texto</button>
+            <button class="btnOcultar"> Ocultar imagen</button>
+            <button class="btnMostrar"> Mostrar imagen</button>
+            <button id="btnAgregarElemento"> Agregar a lista</button>
+            <button id="btnCambiarFondo"> Cambiar fondo</button>
+            <button id="btnEliminarUltimo"> Eliminar último</button>
+            <button id="btnContarElementos"> Contar elementos</button>
+            <button id="btnReset"> Resetear</button>
+        </div>
+
+        <div id="contenedor">
+            <div class="contenedor-imagen">
+                <img id="imagen" src="https://images.unsplash.com/photo-1547721064-da6cfb341d50?w=400&auto=format&fit=crop" alt="Ilustración bonita">
+            </div>
+
+            <p id="parrafo"> Este es un párrafo de ejemplo con un mensaje bonito.</p>
+
+            <div class="lista-container">
+                <h3> Mi lista de tareas</h3>
+                <ul id="lista">
+                    <li> Hacer ejercicio</li>
+                    <li> Estudiar JavaScript</li>
+                    <li> Crear diseño bonito</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
